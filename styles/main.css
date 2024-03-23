@@ -612,6 +612,8 @@ footer {
   .div_orab {
     flex-direction: column;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 .img-img {
