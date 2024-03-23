@@ -1,0 +1,166 @@
+#menu {
+  z-index: 5;
+  height: 100vh;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 200px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #d9d7d7;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+  top: 0;
+  right: 15px;
+  position: absolute;
+}
+
+.menu-bg {
+  height: 100vh;
+
+  z-index: 1;
+  width: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, rgb(0, 0, 0), rgba(52, 201, 182, 1));
+  border-radius: 25px;
+  margin-right: -50px;
+  .btn {
+    display: block;
+  }
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 920px;
+  transform: translate(60%, -30%);
+  overflow: hidden;
+}
+.btn {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background: rgba(199, 242, 255, 1);
+  width: 200px;
+  border: none;
+}
+.btn_dack {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24.61px;
+  text-align: center;
+  padding-top: 10px;
+}
+.btn1 {
+  padding: 15px, 27px, 15px, 27px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background: #fff;
+  border: none;
+  width: 300px;
+}
+.btn_orab {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 1000px) {
+  .btn_orab {
+    flex-direction: column;
+  }
+  .btn1 {
+    padding-bottom: 25px;
+  }
+}
+.btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: rgba(199, 242, 255, 1);
+  cursor: pointer;
+}
+.btn:active,
+.btn1:active {
+  opacity: 0.4;
+}
+.btnr {
+  width: 170px;
+  padding: 10px 31px;
+  background: rgba(52, 201, 182, 1);
+  border: none;
+  padding-bottom: 20px;
+}
+.btnr:hover {
+  background-color: rgba(199, 242, 255, 1);
+  cursor: pointer;
+}
+.btnr:active {
+  opacity: 0.4;
+}

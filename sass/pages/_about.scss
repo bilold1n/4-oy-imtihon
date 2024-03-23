@@ -1,0 +1,145 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-logo {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 100%;
+  max-width: 350px;
+}
+.hero-dack {
+  width: 100%;
+  max-width: 730px;
+}
+.card-img {
+  padding-top: 5px;
+  border-radius: 50%;
+}
+.dack-hero {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+}
+// ======================================
+.card1-title {
+  margin-top: 140px;
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.about-card-birinchi {
+  background: rgba(1, 47, 52, 1);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  color: rgb(121, 200, 199);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.card-dack {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 100%;
+  max-width: 254px;
+}
+.card-ing {
+  background: rgb(0, 64, 71);
+}
+.card-orab-bir1 {
+  display: flex;
+  justify-content: space-between;
+}
+.oval-rasm {
+  margin-bottom: -30px;
+}
+.oval-rasm5 {
+  margin-bottom: -40px;
+}
+.card-orab-ikki2 {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.font {
+  background: rgb(1, 47, 52);
+  padding: 130px 0;
+}
+.card-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: -10px;
+}
+.font-title {
+  margin-bottom: 70px;
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.fontlar-orab {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1230px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-logo {
+    font-size: 50px;
+  }
+  .card-orab-bir1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-bottom: 70px;
+  }
+  .card-orab-ikki2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+  }
+  .fontlar-orab {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+}

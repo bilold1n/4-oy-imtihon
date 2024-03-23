@@ -1,0 +1,80 @@
+footer {
+  background-color: black;
+  padding: 48px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.ul {
+  margin-top: 25px;
+  display: flex;
+  gap: 40px;
+}
+.link-footer {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.linklar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.linklar1 {
+  color: rgba(255, 255, 255, 0.593);
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+// -==================================
+.iconlar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.iconlar1 {
+  display: flex;
+  gap: 15px;
+}
+.iconlar-dack {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.icon-dack {
+  color: rgba(255, 255, 255, 0.593);
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.link-footer:hover {
+  color: rgb(255, 204, 0);
+}
+.kkk:hover {
+  background-color: rgb(255, 204, 0);
+  cursor: pointer;
+}
+@media (max-width: 820px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconlar {
+    align-items: center;
+    justify-content: center;
+  }
+  .linklar {
+    align-items: center;
+    justify-content: center;
+  }
+}

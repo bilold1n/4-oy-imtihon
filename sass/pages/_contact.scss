@@ -1,0 +1,84 @@
+.contact-orab {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.contact-title {
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.contact-dack {
+  color: rgb(246, 126, 126);
+  font-family: Livvic;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.contact-textlar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 540px;
+}
+.contact-rasmlar {
+  margin-bottom: 50px;
+}
+.input-contact {
+  border: none;
+  background-color: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 540px;
+}
+.rasm-dack {
+  width: 100%;
+  max-width: 390px;
+  color: rgb(255, 255, 255);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.rasmbir {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rasmikki {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rasm-uch {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+@media (max-width: 1100px) {
+  .contact-orab {
+    flex-direction: column;
+
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  .contact-title {
+    font-size: 55px;
+  }
+  .contact-dack {
+    font-size: 30px;
+  }
+}
