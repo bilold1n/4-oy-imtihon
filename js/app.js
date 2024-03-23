@@ -21,17 +21,16 @@
 //   if (n <= 1) {
 //     return false;
 //   }
-//   console.log(Math.sqrt(n));
-//   for (let i = 2; i <= Math.sqrt(n); i++) {
+//   for (let i = 2; i <= n / 2; i++) {
 //     if (n % i == 0) {
 //       return false;
 //     }
 //   }
 //   return true;
 // }
-// console.log(isPrime(7));
-// console.log(isPrime(12));
-// console.log(Math.sqrt(25));
+// console.log(isPrime(17));
+// console.log(isPrime(5));
+// console.log(isPrime(4));
 //4
 //5
 // function getSumBetweenNumbers(n1, n2) {
@@ -99,30 +98,26 @@
 //   }
 // });
 //10
-function calculateTotalCost(products) {
-  let totalCost = 0;
-
-  for (let i = 0; i < products.length; i++) {
-    let mahsulot = products[i];
-    let miqdor = mahsulot.miqdor;
-    let narx = mahsulot.narx;
-    let chegirma = mahsulot.chegirma || 0;
-    let subtotal = miqdor * (narx - chegirma);
-
-    totalCost += subtotal;
-  }
-
-  return totalCost;
-}
-const products = [
-  { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
-  { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
-  { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
-  { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
-  { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
-];
-
-console.log(calculateTotalCost(products));
+// function calculateTotalCost(products) {
+//   let totalCost = 0;
+//   for (let i = 0; i < products.length; i++) {
+//     let mahsulot = products[i];
+//     let miqdor = mahsulot.quantity;
+//     let narx = mahsulot.price;
+//     let chegirma = mahsulot.chegirma || 0;
+//     let subtotal = miqdor * (narx - chegirma);
+//     totalCost += subtotal;
+//   }
+//   return "umumiy summa: " + totalCost;
+// }
+// const products = [
+//   { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
+//   { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
+//   { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
+//   { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
+//   { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
+// ];
+// console.log(calculateTotalCost(products));
 //
 function menuOnClick() {
   document.getElementById("menu-bar").classList.toggle("change");
