@@ -449,27 +449,16 @@ header {
 }
 
 .link {
-  color: rgb(255, 255, 255);
-  font-family: Livvic;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
   text-align: left;
-}
-
-.link1 {
-  color: rgb(255, 255, 255);
-  font-family: Livvic;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: 0px;
-  text-align: left;
+  color: rgb(235, 244, 243);
 }
 
 .link:hover {
-  color: rgb(255, 204, 0);
+  color: rgb(255, 183, 0);
 }
 
 @media (max-width: 870px) {
@@ -634,6 +623,7 @@ footer {
   gap: 20px;
   justify-content: center;
   box-shadow: 0px 5px 8px 6px rgba(34, 60, 80, 0.2);
+  background-color: #fff;
 }
 
 .div-2 {
