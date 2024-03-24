@@ -44,18 +44,18 @@
 // console.log(getSumBetweenNumbers(5, 10));
 // console.log(getSumBetweenNumbers(-1, 1));
 //6
-function getElementsOneTime(arr) {
-  let uniqueElements = [];
-  for (let i = 0; i < arr.length; i++) {
-    let element = arr[i];
-    if (arr.indexOf(element, i + 1) === -1 && arr.indexOf(element) === i) {
-      uniqueElements.push(element);
-    }
-  }
-  return uniqueElements;
-}
-let arr = [1, 5, 6, 1, 5, 7, 2];
-console.log(getElementsOneTime(arr));
+// function getElementsOneTime(arr) {
+//   let elemeenttekshir = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     let element = arr[i];
+//     if (arr.indexOf(element, i + 1) === -1 && arr.indexOf(element) === i) {
+//       elemeenttekshir.push(element);
+//     }
+//   }
+//   return elemeenttekshir;
+// }
+// let arr = [1, 5, 6, 1, 5, 7, 2];
+// console.log(getElementsOneTime(arr));
 //7
 // function removeDuplicate(arr) {
 //   let ushlab = [];
