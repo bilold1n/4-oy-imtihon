@@ -173,9 +173,18 @@
 }
 @media (max-width: 900px) {
   .div--orab {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     gap: 50px;
+    text-align: center;
+  }
+  .pasi-dack {
+    text-align: center;
+    width: 290px;
+  }
+  .title-pasi {
+    text-align: center;
+    font-size: 20px;
   }
   .cart-orab {
     flex-direction: column;
