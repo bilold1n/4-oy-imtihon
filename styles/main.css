@@ -615,7 +615,6 @@ footer {
 
 .div-1 {
   width: 240px;
-  border-radius: 12px;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -624,11 +623,11 @@ footer {
   justify-content: center;
   box-shadow: 0px 5px 8px 6px rgba(34, 60, 80, 0.2);
   background-color: #fff;
+  height: 280px;
 }
 
 .div-2 {
   width: 240px;
-  border-radius: 12px;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -637,6 +636,7 @@ footer {
   justify-content: center;
   box-shadow: 0px 5px 8px 6px rgba(34, 60, 80, 0.2);
   background: rgb(199, 242, 255);
+  height: 280px;
 }
 
 .catr-img {
