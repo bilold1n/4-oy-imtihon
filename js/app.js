@@ -44,6 +44,7 @@
 // console.log(getSumBetweenNumbers(5, 10));
 // console.log(getSumBetweenNumbers(-1, 1));
 //6
+// let arr = [1, 5, 6, 1, 5, 7, 2];
 // function getElementsOneTime(arr) {
 //   let elemeenttekshir = [];
 //   for (let i = 0; i < arr.length; i++) {
@@ -54,9 +55,10 @@
 //   }
 //   return elemeenttekshir;
 // }
-// let arr = [1, 5, 6, 1, 5, 7, 2];
+
 // console.log(getElementsOneTime(arr));
 //7
+// let arr = [1, 1, 2, 2, 3, 3, 5, 5];
 // function removeDuplicate(arr) {
 //   let ushlab = [];
 //   let result = [];
@@ -69,7 +71,7 @@
 //   }
 //   return result;
 // }
-// let arr = [1, 1, 2, 2, 3, 3, 5, 5];
+
 // console.log(removeDuplicate(arr));
 //8
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
