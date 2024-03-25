@@ -1,14 +1,14 @@
-1;
-function removeFirstOccurrences(str, value) {
-  let index = str.indexOf(value);
-  if (index == -1) {
-    return str;
-  }
-  console.log(str.slice(index + value.length));
-  console.log(str.slice(0, index));
-  return str.slice(0, index) + str.slice(index + value.length);
-}
-console.log(removeFirstOccurrences("sabalombasalo05m", "ba"));
+// 1;
+// function removeFirstOccurrences(str, value) {
+//   let index = str.indexOf(value);
+//   if (index == -1) {
+//     return str;
+//   }
+//   console.log(str.slice(index + value.length));
+//   console.log(str.slice(0, index));
+//   return str.slice(0, index) + str.slice(index + value.length);
+// }
+// console.log(removeFirstOccurrences("sabalombasalo05m", "ba"));
 // 2
 // function unbracketTag(str) {
 //   return str.slice(1, -1);
