@@ -15,15 +15,6 @@ header {
 #menu {
   display: none;
 }
-@media (max-width: 870px) {
-  #menu {
-    display: block;
-    margin-top: -10px;
-  }
-  .btn {
-    display: none;
-  }
-}
 .sapan {
   color: #fff;
   opacity: 0.7;
